@@ -1,8 +1,8 @@
 # 👻 Ghost Skills - OpenClaw 技能合集
 
-> 🎨 **28 个原创技能** | 📚 **31 个完整文档** | 🚀 **开箱即用**
+> 🎨 **35 个原创技能** | 📚 **38 个完整文档** | 🚀 **开箱即用**
 > 
-> 🎨 **28 Original Skills** | 📚 **31 Complete Docs** | 🚀 **Ready to Use**
+> 🎨 **35 Original Skills** | 📚 **38 Complete Docs** | 🚀 **Ready to Use**
 
 由 小鬼 👻 (Jake's AI Assistant) 创建和维护的 OpenClaw 技能仓库
 
@@ -19,15 +19,15 @@ Created and maintained by 小鬼 👻 (Jake's AI Assistant)
 
 **中文**
 
-👻 Ghost Skills 是一个包含 31 个 OpenClaw 技能的合集，其中 28 个为原创作品。
+👻 Ghost Skills 是一个包含 38 个 OpenClaw 技能的合集，其中 35 个为原创作品。
 
-涵盖内容创作、新闻资讯、生活工具、娱乐、学习、电商、开发效率、知识管理、安全进化等 9 大类别。
+涵盖内容创作、新闻资讯、生活工具、娱乐、学习、电商、开发效率、知识管理、安全进化、旅行规划、工作效率、个人成长等 12 大类别。
 
 **English**
 
-👻 Ghost Skills is a collection of 31 OpenClaw skills, with 28 original creations.
+👻 Ghost Skills is a collection of 38 OpenClaw skills, with 35 original creations.
 
-Covers 9 categories: content creation, news, life tools, entertainment, learning, e-commerce, development efficiency, knowledge management, and safety evolution.
+Covers 12 categories: content creation, news, life tools, entertainment, learning, e-commerce, development efficiency, knowledge management, safety evolution, travel planning, productivity, and personal growth.
 
 ---
 
@@ -38,12 +38,15 @@ Covers 9 categories: content creation, news, life tools, entertainment, learning
 | 🎨 内容创作 Content Creation | 5 | 公众号/小红书/AI 降味/图像生成 |
 | 📰 新闻资讯 News & Digest | 4 | 早晚推送/RSS 聚合/多源研究 |
 | 🛠️ 生活工具 Life Tools | 4 | 天气/限行/快递/记忆记录 |
-| 🎮 娱乐生活 Entertainment | 2 | 电影推荐/音乐助手 ✨ NEW |
-| 📚 学习工具 Learning Tools | 2 | 单词记忆/PDF 阅读 ✨ NEW |
-| 🛒 电商工具 E-commerce | 1 | 价格监控/比价 ✨ NEW |
+| 🎮 娱乐生活 Entertainment | 2 | 电影推荐/音乐助手 |
+| 📚 学习工具 Learning Tools | 2 | 单词记忆/PDF 阅读 |
+| 🛒 电商工具 E-commerce | 1 | 价格监控/比价 |
 | 💻 开发效率 Development | 6 | 编码助手/浏览器自动化/技能创建 |
 | 🧠 知识管理 Knowledge | 3 | Obsidian 同步/本体管理/备忘录 |
 | 🛡️ 安全进化 Safety & AI | 4 | 技能审查/自进化学习/主动代理 |
+| ✈️ 旅行规划 Travel Planning | 1 | 行程规划/景点推荐/预算估算 ✨ NEW |
+| 📋 工作效率 Productivity | 3 | 会议助手/邮件助手/PPT 生成 ✨ NEW |
+| 🎯 个人成长 Personal Growth | 3 | 书籍推荐/习惯打卡/目标管理 ✨ NEW |
 
 **✨ 特色技能 / Featured Skills:**
 
@@ -52,6 +55,9 @@ Covers 9 categories: content creation, news, life tools, entertainment, learning
 - 📚 **Word Memory** - 艾宾浩斯曲线，每日单词推送
 - 📄 **PDF Reader** - PDF 转 Markdown，智能摘要
 - 💰 **Price Tracker** - 历史价格，降价提醒，多平台比价
+- ✈️ **Travel Planner** - 行程规划/景点推荐/预算估算 ✨ NEW
+- 📧 **Email Helper** - 邮件草稿/模板生成 ✨ NEW
+- 🎯 **Habit Tracker** - 习惯打卡/统计分析 ✨ NEW
 
 ---
 
@@ -59,9 +65,9 @@ Covers 9 categories: content creation, news, life tools, entertainment, learning
 
 | 指标 Metric | 数量 Count |
 |------------|-----------|
-| 总技能 Total Skills | 31 |
-| 原创技能 Original Skills | 28 (90%) |
-| Python 实现 Python Implementation | 5 |
+| 总技能 Total Skills | 38 |
+| 原创技能 Original Skills | 35 (92%) |
+| Python 实现 Python Implementation | 12 |
 | API 对接 API Integration | 3 (豆瓣/网易云/电商) |
 | 文档覆盖 Documentation | 100% |
 | 测试通过率 Test Pass Rate | 100% |
@@ -284,6 +290,18 @@ git push origin feature/your-skill
 ```
 
 ## 📝 更新日志
+
+### v1.2.0 (2026-03-16)
+- ✨ 新增 7 个技能：
+  - `travel-planner` - 旅行规划助手
+  - `meeting-assistant` - 会议助手
+  - `email-helper` - 邮件助手
+  - `ppt-generator` - PPT 生成助手
+  - `book-recommender` - 书籍推荐助手
+  - `habit-tracker` - 习惯养成助手
+  - `goal-manager` - 目标管理助手
+- 📊 技能总数：38 个
+- 🐍 Python 实现：12 个
 
 ### v1.1.0 (2026-03-16)
 - ✨ 新增 5 个技能：
