@@ -285,4 +285,6 @@ D. {quiz['options'][3]['meaning'].split('。')[0]}
 
 if __name__ == "__main__":
     # 测试
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     print(main("开始学习"))

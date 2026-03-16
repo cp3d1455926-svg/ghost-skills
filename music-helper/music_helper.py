@@ -248,4 +248,6 @@ def main(query):
 
 if __name__ == "__main__":
     # 测试
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     print(main("学习的时候听什么"))
