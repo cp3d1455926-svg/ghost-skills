@@ -4,84 +4,88 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills Count](https://img.shields.io/badge/skills-31-green.svg)](./)
+[![Stars](https://img.shields.io/github/stars/cp3d1455926-svg/ghost-skills.svg)](https://github.com/cp3d1455926-svg/ghost-skills/stargazers)
+[![Issues](https://img.shields.io/github/issues/cp3d1455926-svg/ghost-skills.svg)](https://github.com/cp3d1455926-svg/ghost-skills/issues)
 
 ## 📦 技能列表
 
 ### 🎨 内容创作类
 
-| 技能 | 描述 |
-|------|------|
-| `official-account-assistant` | 公众号助手（AI 降味写作、自动发布、智能配图） |
-| `xiaohongshu-assistant` | 小红书运营助手（文案生成、标题优化、话题推荐） |
-| `file-super-assistant` | 文件创建与 AI 降味（docx/xlsx/pptx/pdf） |
-| `humanize-ai-text` | AI 文本人类化（去除 AI 味） |
-| `pollinations-ai` | 图像生成（文生图/图生图，免费无需 API Key） |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [📢 official-account-assistant](official-account-assistant/README.md) | 公众号助手（AI 降味写作、自动发布、智能配图） | [📖](official-account-assistant/README.md) |
+| [📕 xiaohongshu-assistant](xiaohongshu-assistant/README.md) | 小红书运营助手（文案生成、标题优化、话题推荐） | [📖](xiaohongshu-assistant/README.md) |
+| [📝 file-super-assistant](file-super-assistant/README.md) | 文件创建与 AI 降味（docx/xlsx/pptx/pdf） | [📖](file-super-assistant/README.md) |
+| [🎭 humanize-ai-text](humanize-ai-text/README.md) | AI 文本人类化（去除 AI 味） | [📖](humanize-ai-text/README.md) |
+| [🎨 pollinations-ai](pollinations-ai/README.md) | 图像生成（文生图/图生图，免费无需 API Key） | [📖](pollinations-ai/README.md) |
 
 ### 📰 新闻资讯类
 
-| 技能 | 描述 |
-|------|------|
-| `news-digest-aggregator` | RSS 新闻聚合与摘要 |
-| `news-evening-digest` | 晚间新闻推送（每天 20:00 自动推送） |
-| `news-noon-digest` | 午间新闻推送（每天 12:00 自动推送） |
-| `multi-source-research` | 多源研究助手（网页/学术/社交媒体整合） |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [📰 news-digest-aggregator](news-digest-aggregator/README.md) | RSS 新闻聚合与摘要 | [📖](news-digest-aggregator/README.md) |
+| [🌅 news-evening-digest](news-evening-digest/README.md) | 晚间新闻推送（每天 20:00 自动推送） | [📖](news-evening-digest/README.md) |
+| [☀️ news-noon-digest](news-noon-digest/README.md) | 午间新闻推送（每天 12:00 自动推送） | [📖](news-noon-digest/README.md) |
+| [🔍 multi-source-research](multi-source-research/README.md) | 多源研究助手（网页/学术/社交媒体整合） | [📖](multi-source-research/README.md) |
 
 ### 🛠️ 生活工具类
 
-| 技能 | 描述 |
-|------|------|
-| `cn-life-toolkit` | 中国生活服务（天气/限行/快递/公交/油价） |
-| `weather` | 天气查询（街道级精度） |
-| `life-memory-logger` | 生活记忆记录器（生日/喜好/承诺提醒） |
-| `quiz-generator` | 测试问卷生成（心理测试/性格测试） |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [🇨🇳 cn-life-toolkit](cn-life-toolkit/README.md) | 中国生活服务（天气/限行/快递/公交/油价） | [📖](cn-life-toolkit/README.md) |
+| [🌤️ weather](weather/README.md) | 天气查询（街道级精度） | [📖](weather/README.md) |
+| [💝 life-memory-logger](life-memory-logger/README.md) | 生活记忆记录器（生日/喜好/承诺提醒） | [📖](life-memory-logger/README.md) |
+| [📋 quiz-generator](quiz-generator/README.md) | 测试问卷生成（心理测试/性格测试） | [📖](quiz-generator/README.md) |
 
 ### 🎮 娱乐生活类
 
-| 技能 | 描述 |
-|------|------|
-| `movie-recommender` | 电影推荐助手（心情推荐/豆瓣评分/观影记录）✨ NEW |
-| `music-helper` | 音乐助手（歌单推荐/歌词获取/音乐搜索）✨ NEW |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [🎬 movie-recommender](movie-recommender/README.md) | 电影推荐助手（心情推荐/豆瓣评分/观影记录）✨ NEW | [📖](movie-recommender/README.md) |
+| [🎵 music-helper](music-helper/README.md) | 音乐助手（歌单推荐/歌词获取/音乐搜索）✨ NEW | [📖](music-helper/README.md) |
 
 ### 📚 学习工具类
 
-| 技能 | 描述 |
-|------|------|
-| `word-memory` | 单词记忆助手（艾宾浩斯曲线/每日推送/测试）✨ NEW |
-| `pdf-reader` | PDF 阅读助手（转 Markdown/摘要/问答）✨ NEW |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [📚 word-memory](word-memory/README.md) | 单词记忆助手（艾宾浩斯曲线/每日推送/测试）✨ NEW | [📖](word-memory/README.md) |
+| [📄 pdf-reader](pdf-reader/README.md) | PDF 阅读助手（转 Markdown/摘要/问答）✨ NEW | [📖](pdf-reader/README.md) |
 
 ### 🛒 电商工具类
 
-| 技能 | 描述 |
-|------|------|
-| `price-tracker` | 价格监控助手（历史价格/降价提醒/比价）✨ NEW |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [💰 price-tracker](price-tracker/README.md) | 价格监控助手（历史价格/降价提醒/比价）✨ NEW | [📖](price-tracker/README.md) |
 
 ### 💻 开发效率类
 
-| 技能 | 描述 |
-|------|------|
-| `coding-lite` | 轻量级编码助手（Python/Excel/SQL/小程序） |
-| `skill-creator` | 技能创建工具（快速生成技能模板） |
-| `agent-browser` | 浏览器自动化（Rust 头浏览器 + Node.js  fallback） |
-| `summarize` | URL/文件摘要（网页/PDF/图片/音频/YouTube） |
-| `tavily-search` | Tavily 网页搜索 API |
-| `data-analytics-assistant` | 数据分析助手（访问统计/用户行为/转化率） |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [💻 coding-lite](coding-lite/README.md) | 轻量级编码助手（Python/Excel/SQL/小程序） | [📖](coding-lite/README.md) |
+| [🛠️ skill-creator](skill-creator/README.md) | 技能创建工具（快速生成技能模板） | [📖](skill-creator/README.md) |
+| [🤖 agent-browser](agent-browser/README.md) | 浏览器自动化（Rust 头浏览器 + Node.js fallback） | [📖](agent-browser/README.md) |
+| [📝 summarize](summarize/README.md) | URL/文件摘要（网页/PDF/图片/音频/YouTube） | [📖](summarize/README.md) |
+| [🔎 tavily-search](tavily-search/README.md) | Tavily 网页搜索 API | [📖](tavily-search/README.md) |
+| [📊 data-analytics-assistant](data-analytics-assistant/README.md) | 数据分析助手（访问统计/用户行为/转化率） | [📖](data-analytics-assistant/README.md) |
 
 ### 🧠 知识管理类
 
-| 技能 | 描述 |
-|------|------|
-| `obsidian-ontology-sync` | Obsidian 双向同步（笔记↔本体图） |
-| `ontology` | 本体管理工具 |
-| `memos` | 备忘录系统 |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [🔄 obsidian-ontology-sync](obsidian-ontology-sync/README.md) | Obsidian 双向同步（笔记↔本体图） | [📖](obsidian-ontology-sync/README.md) |
+| [🧠 ontology](ontology/README.md) | 本体管理工具 | [📖](ontology/README.md) |
+| [📝 memos](memos/README.md) | 备忘录系统 | [📖](memos/README.md) |
 
 ### 🛡️ 安全与自进化
 
-| 技能 | 描述 |
-|------|------|
-| `skill-vetter` | 技能安全审查（安装前必用） |
-| `skill-preflight-checker` | 技能预检检查器 |
-| `self-improving-agent` | 自进化学习（错误捕获与持续改进） |
-| `proactive-agent` | 主动式代理（WAL Protocol + 自主定时任务） |
+| 技能 | 描述 | 文档 |
+|------|------|------|
+| [🛡️ skill-vetter](skill-vetter/README.md) | 技能安全审查（安装前必用） | [📖](skill-vetter/README.md) |
+| [✅ skill-preflight-checker](skill-preflight-checker/README.md) | 技能预检检查器 | [📖](skill-preflight-checker/README.md) |
+| [🔄 self-improving-agent](self-improving-agent/README.md) | 自进化学习（错误捕获与持续改进） | [📖](self-improving-agent/README.md) |
+| [🚀 proactive-agent](proactive-agent/README.md) | 主动式代理（WAL Protocol + 自主定时任务） | [📖](proactive-agent/README.md) |
+
+---
 
 ## 🚀 快速开始
 
@@ -129,6 +133,7 @@ skill-name/
 ├── scripts/              # 辅助脚本
 ├── references/           # 参考资料
 ├── assets/               # 静态资源
+├── README.md             # 使用说明书
 └── _meta.json            # 元数据（可选）
 ```
 
@@ -143,6 +148,7 @@ skill-name/
 
 **检查清单：**
 - [ ] 阅读 `SKILL.md` 了解功能
+- [ ] 阅读 `README.md` 学习用法
 - [ ] 检查是否有可疑的 shell 命令
 - [ ] 确认权限请求合理
 - [ ] 无硬编码的 API 密钥或凭证
@@ -190,6 +196,8 @@ git push origin feature/your-skill
   - `word-memory` - 单词记忆助手
   - `pdf-reader` - PDF 阅读助手
   - `price-tracker` - 价格监控助手
+- 📖 为所有 31 个技能添加 README 说明书
+- 🔗 主 README 添加技能跳转链接
 
 ### v1.0.0 (2026-03-16)
 - 🎉 初始发布，包含 26 个技能
@@ -208,7 +216,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 由 **小鬼** 👻 创建和维护
 
 - **作者**: Jake's AI Assistant
-- **版本**: 1.0.0
+- **版本**: 1.1.0
 - **创建日期**: 2026-03-16
 - **GitHub**: https://github.com/cp3d1455926-svg/ghost-skills
 
