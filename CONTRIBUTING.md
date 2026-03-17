@@ -1,155 +1,172 @@
-# 贡献指南
+# Contributing to Ghost Skills
 
-欢迎为 Ghost Skills 贡献代码！👻
+Thank you for considering contributing to Ghost Skills! 🤝👻
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. Fork 仓库
+### 1. Fork the Repository
 
-点击 GitHub 右上角的 "Fork" 按钮
+Click the "Fork" button in the top-right corner of GitHub
 
-### 2. 克隆仓库
+### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ghost-skills.git
-cd ghost-skills
+git clone https://github.com/YOUR_USERNAME/OpenClaw-good-skills.git
+cd OpenClaw-good-skills
 ```
 
-### 3. 创建分支
+### 3. Create a Branch
 
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-## 📝 提交规范
+## 📝 Commit Message Convention
 
-### Commit Message 格式
+### Format
 
 ```
 <type>(<scope>): <subject>
-
-<body>
-
-<footer>
 ```
 
-### Type 类型
+### Types
 
-- `feat`: 新功能
-- `fix`: Bug 修复
-- `docs`: 文档更新
-- `style`: 代码格式（不影响功能）
-- `refactor`: 重构
-- `test`: 测试相关
-- `chore`: 构建/工具/配置
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, etc.)
+- `refactor`: Code refactoring
+- `test`: Adding tests
+- `chore`: Build/config changes
 
-### 示例
+### Examples
+
+```
+feat(movie-recommender): add Douban API integration
+fix(weather): fix encoding issue on Windows
+docs: update README installation steps
+refactor(skill-creator): improve error handling
+```
+
+## 🛠️ Creating a New Skill
+
+### 1. Use skill-creator (Recommended)
 
 ```bash
-# 新功能
-git commit -m "feat(news): 添加新闻来源过滤功能"
-
-# Bug 修复
-git commit -m "fix(weather): 修复街道级天气查询超时问题"
-
-# 文档更新
-git commit -m "docs(readme): 更新安装说明"
+# In OpenClaw
+"Help me create a new skill named xxx"
 ```
 
-## 🛡️ 技能开发规范
+### 2. Manual Creation
 
-### 必需文件
-
-每个技能必须包含：
-
-- `SKILL.md` - 技能描述和触发规则
-- 至少一个执行文件（`.js` / `.py` / `.sh`）
-
-### 推荐结构
-
-```
-your-skill/
-├── SKILL.md              # 必需
-├── index.js              # 或 script.py
-├── _meta.json            # 元数据
-├── scripts/              # 辅助脚本
-├── references/           # 参考资料
-└── README.md             # 使用说明
+```bash
+cd skills
+mkdir your-skill-name
+cd your-skill-name
 ```
 
-### SKILL.md 模板
+### Required Files
+
+```
+your-skill-name/
+├── SKILL.md           # Skill description and triggers
+├── index.js           # Main logic (or script.py)
+├── README.md          # Usage documentation
+└── _meta.json         # Optional: Metadata
+```
+
+### SKILL.md Template
 
 ```markdown
-# 技能名称
+---
+name: your-skill-name
+description: Brief description of your skill
+---
 
-## 触发规则
+# Your Skill Name
 
-- 关键词：xxx, yyy, zzz
-- 场景：当用户...
+## Core Functionality
 
-## 功能描述
+Describe what your skill does...
 
-...
+## Usage Examples
 
-## 权限需求
-
-- [ ] 文件读写
-- [ ] 网络访问
-- [ ] 外部 API
+```
+Example trigger phrases...
 ```
 
-## ✅ 提交前检查
+## Implementation Details
 
-- [ ] 代码已测试
-- [ ] 无敏感信息（API 密钥、密码等）
-- [ ] 更新了 README（如需要）
-- [ ] Commit message 符合规范
+Technical details...
+```
 
-## 🔒 安全要求
+## ✅ Before Submitting
 
-**禁止提交：**
+### Checklist
 
-- ❌ 硬编码的 API 密钥或凭证
-- ❌ 恶意代码或后门
-- ❌ 未授权的数据收集
-- ❌ 破坏性命令（无确认的 rm -rf 等）
+- [ ] Read [SKILL.md](SKILL.md) to understand functionality
+- [ ] Read [README.md](README.md) for usage instructions
+- [ ] Check for suspicious shell commands
+- [ ] Verify permission requests are reasonable
+- [ ] No hardcoded API keys or credentials
+- [ ] Test skill functionality
+- [ ] Update documentation if needed
 
-**必须审查：**
+### Testing Your Skill
 
-- ✅ 所有网络请求
-- ✅ 所有文件操作
-- ✅ 所有外部命令执行
+1. Place skill in `workspace/skills/`
+2. Enable skill in OpenClaw
+3. Test all functionality
+4. Check logs for errors
+5. Test edge cases
 
-## 📤 提交 PR
+## 📤 Submitting Changes
 
-1. Push 到你的分支：
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+### 1. Commit Changes
 
-2. 在 GitHub 创建 Pull Request
+```bash
+git add .
+git commit -m "feat: add your-skill-name"
+```
 
-3. 填写 PR 描述：
-   - 这个 PR 做了什么？
-   - 为什么需要这个改动？
-   - 如何测试？
+### 2. Push to GitHub
 
-## 🎯 技能创意
+```bash
+git push origin feature/your-feature-name
+```
 
-不知道贡献什么？看看这些想法：
+### 3. Create Pull Request
 
-- [ ] 更多生活服务工具（机票查询、酒店比价）
-- [ ] 社交媒体管理（微博、抖音）
-- [ ] 学习工具（单词记忆、题库）
-- [ ] 效率工具（番茄钟、待办事项）
-- [ ] 娱乐技能（笑话、谜语、星座）
+- Go to your fork on GitHub
+- Click "Pull Request"
+- Fill in the PR description:
+  - What does this PR do?
+  - Why is this change needed?
+  - How to test this PR?
+- Submit PR
 
-## ❓ 需要帮助？
+## 🔍 Code Review
 
-- 开 Issue 描述你的想法
-- 在 Discussion 中提问
-- 联系维护者
+After submitting a PR:
+
+1. Maintainers will review your code
+2. Address any feedback or requested changes
+3. Once approved, your PR will be merged
+
+## 💡 Tips
+
+- Keep skills focused on a single purpose
+- Follow existing code patterns
+- Add comments for complex logic
+- Include usage examples in README
+- Test thoroughly before submitting
+
+## ❓ Questions?
+
+Feel free to open an issue with the "question" label!
 
 ---
 
-感谢你的贡献！👻
+**Thanks for contributing! 🎉**
+
+*Made with 👻 by Ghost & Jake*
