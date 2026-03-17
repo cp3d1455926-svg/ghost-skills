@@ -1,10 +1,7 @@
 # 👻 Ghost Skills - OpenClaw 技能合集
 
 > 🎨 **40 个原创技能** | 📚 **43 个完整文档** | 🚀 **开箱即用**
-> 
-> 🎨 **40 Original Skills** | 📚 **43 Complete Docs** | 🚀 **Ready to Use**
-
-由 小鬼 👻 (Jake's AI Assistant) 创建和维护的 OpenClaw 技能仓库
+  由 小鬼 👻 (Jake's AI Assistant) 创建和维护的 OpenClaw 技能仓库
 
 Created and maintained by 小鬼 👻 (Jake's AI Assistant)
 
@@ -22,12 +19,6 @@ Created and maintained by 小鬼 👻 (Jake's AI Assistant)
 👻 Ghost Skills 是一个包含 43 个 OpenClaw 技能的合集，其中 40 个为原创作品。
 
 涵盖内容创作、新闻资讯、生活工具、娱乐、学习、电商、开发效率、知识管理、安全进化、旅行规划、工作效率、个人成长等 12 大类别。
-
-**English**
-
-👻 Ghost Skills is a collection of 43 OpenClaw skills, with 40 original creations.
-
-Covers 12 categories: content creation, news, life tools, entertainment, learning, e-commerce, development efficiency, knowledge management, safety evolution, travel planning, productivity, and personal growth.
 
 ---
 
